@@ -5,10 +5,11 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What HTML tag is used to link to another website?
-
+  <a>
 - What is an absolute URL?
-
+  complete full url
 - What is a relative URL?
+  relative to local filesystem or local website.
 
 ## Notes
 
