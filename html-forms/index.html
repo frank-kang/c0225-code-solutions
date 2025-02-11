@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="https://example.com/register" method="post">
+      <label for="email">Email</label>
+      <p></p>
+      <input type="email" id="email" name="email" required />
+      <p></p>
+      <label for="codingOptions">Why is coding cool?</label>
+      <p></p>
+      <select id="codingOptions" name="codingOptions">
+        <option value="">Select an option</option>
+        <option value="Because it's interesting">
+          Because it's interesting
+        </option>
+        <option value="Because it's fun">Because it's fun</option>
+        <option value="Because it's powerful">Because it's powerful</option>
+      </select>
+      <fieldset>
+        <legend>Favorite Language (choose one)</legend>
+
+        <input type="radio" id="html" name="language" value="html" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="language" value="css" />
+        <label for="css">CSS</label>
+
+        <input
+          type="radio"
+          id="javascript"
+          name="language"
+          value="javascript" />
+        <label for="javascript">JavaScript</label>
+      </fieldset>
+      <p>Would you like to sign up for more information?</p>
+
+      <input type="checkbox" id="signMeUp" name="signMeUp" value="signMeUp" />
+      <label for="signMeUp">Sign me up!</label>
+      <p></p>
+      <label for="comments">comments</label>
+      <p></p>
+      <textarea id="comments" name="comments"></textarea>
+      <p></p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
