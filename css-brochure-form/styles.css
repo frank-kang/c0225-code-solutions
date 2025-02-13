@@ -1,0 +1,55 @@
+body {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: AtlasGrotesk, sans-serif;
+  color: red;
+  margin: auto;
+  width: 30%;
+}
+
+form {
+  font-size: 0.75em;
+  margin-top: 20px;
+}
+
+.label-container {
+  margin: auto;
+  width: 50%;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.input-container {
+  margin: auto;
+  width: 50%;
+  margin-top: 5px;
+}
+
+.submit-button {
+  margin-left: 615px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 2em;
+  width: 5em;
+  border-radius: 16px;
+}
+
+.inputs {
+  width: 400px;
+  height: 2.5em;
+  border-color: lightgray;
+  border-radius: 6px;
+}
+
+.labels {
+  padding-right: 4px;
+}
+
+#engineers {
+  background-color: lightgray;
+}
