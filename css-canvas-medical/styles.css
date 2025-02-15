@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: Avenir, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.logo-column {
+  width: 50%;
+  border-bottom: lightgrey solid;
+  border-width: thin;
+}
+
+.nav-column {
+  width: 50%;
+  border-bottom: lightgrey solid;
+  border-width: thin;
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 1.25em;
+  padding-left: 5em;
+}
+
+.nav-texts {
+  display: flex;
+  font-size: 0.85em;
+  justify-content: space-around;
+  padding-right: 3em;
+  align-items: center;
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.contact-us-button {
+  font-size: 0.85em;
+  height: 2.5em;
+  color: white;
+  background-color: navy;
+  border-radius: 6px;
+  border: none;
+}
+
+.img-container {
+  width: 100%;
+  padding: 70px;
+  justify-content: center;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+}
+
+.mission-statement {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 400px;
+}
+
+.title {
+  font-family: 'Tiempos Headline', sans-serif;
+  color: white;
+}
+
+.description {
+  color: white;
+}
+
+.get-started-button {
+  height: 3em;
+  width: 10em;
+  color: white;
+  background-color: navy;
+  border-radius: 6px;
+  border: none;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+
+  /* your code here */
+  position: absolute;
+  top: 50px;
+  bottom: 70px;
+  left: 70px;
+  right: 70px;
+}
+
+.prefer-h2-column {
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.prefer {
+  text-align: center;
+  font-family: 'Tiempos Headline', sans-serif;
+  color: gray;
+}
+
+.location-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: 250px;
+}
+
+.location-announcement {
+  justify-content: center;
+  width: 60%;
+  color: gray;
+}
+
+.announcements {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.addresses-column1 {
+  width: 50%;
+  justify-content: center;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  border-bottom: lightgray solid;
+}
+
+.addresses-column2 {
+  width: 50%;
+  justify-content: center;
+  padding-right: 100px;
+  padding-bottom: 70px;
+  border-bottom: lightgray solid;
+}
+
+.address {
+  text-align: center;
+  font-size: 0.85em;
+  color: gray;
+  padding: 4px;
+}
+
+.learn-more-column {
+  width: 50%;
+  padding-left: 150px;
+}
+
+.learn-more-text {
+  color: gray;
+}
+
+.schedule-text {
+  color: gray;
+  font-size: 0.75em;
+}
+
+.get-started-button-column {
+  display: flex;
+  width: 50%;
+  justify-content: right;
+  padding-top: 35px;
+  padding-right: 150px;
+}
