@@ -241,3 +241,8 @@ h2 {
   font-size: 0.75em;
   padding-left: 40px;
 }
+
+.privacy-text {
+  color: gray;
+  font-size: 0.75em;
+}
