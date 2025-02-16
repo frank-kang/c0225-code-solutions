@@ -3,6 +3,10 @@
   font-family: Avenir, sans-serif;
 }
 
+h2 {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
 .row {
   display: flex;
 }
@@ -130,6 +134,7 @@
   padding-left: 100px;
   padding-bottom: 70px;
   border-bottom: lightgray solid;
+  border-width: thin;
 }
 
 .addresses-column2 {
@@ -138,6 +143,7 @@
   padding-right: 100px;
   padding-bottom: 70px;
   border-bottom: lightgray solid;
+  border-width: thin;
 }
 
 .address {
@@ -150,6 +156,7 @@
 .learn-more-column {
   width: 50%;
   padding-left: 150px;
+  padding-bottom: 25px;
 }
 
 .learn-more-text {
@@ -167,4 +174,70 @@
   justify-content: right;
   padding-top: 35px;
   padding-right: 150px;
+  padding-bottom: 25px;
+}
+
+.company-info-container {
+  background-color: rgb(78, 77, 77);
+  margin-left: 75px;
+  margin-right: 75px;
+  height: 300px;
+}
+
+.white-logo {
+  height: 1.25em;
+}
+
+.canvas-address-column {
+  width: 50%;
+  padding-left: 72px;
+  padding-top: 5em;
+}
+
+.bottom-link {
+  text-decoration: none;
+  color: white;
+}
+
+.company-column {
+  width: 25%;
+  padding-top: 4em;
+  color: white;
+  font-size: 0.85em;
+}
+
+.company-address {
+  font-size: 0.75em;
+  color: white;
+  padding-top: 20px;
+}
+
+.product-column {
+  padding-top: 4em;
+  color: white;
+  font-size: 0.85em;
+  width: 30%;
+}
+
+.bottom-link-container {
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+  padding-left: 150px;
+  margin-top: 20px;
+}
+
+.footer-text {
+  color: rgb(70, 69, 69);
+  font-size: 0.75em;
+}
+
+.contact-us-text {
+  color: gray;
+  font-size: 0.75em;
+  padding-left: 40px;
 }
