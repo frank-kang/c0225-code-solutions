@@ -92,7 +92,7 @@ function renderPokemon(pokemon: Pokemon): HTMLDivElement {
   const $tagP = document.createElement('p');
   $tagP.textContent = pokemon.description;
   $classText.appendChild($tagP);
-  console.log($classOuter);
+
   return $classOuter;
 }
 
