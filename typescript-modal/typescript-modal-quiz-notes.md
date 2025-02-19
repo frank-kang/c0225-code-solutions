@@ -5,12 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the `<dialog>` element used for?
-
+  display modal windows.
 - How do you display a modal dialog?
-
+  showModal()
 - How do you hide a modal dialog?
-
+  close()
 - What is the difference between the `showModal` & `show` methods?
+  one shows a dialog box, displays dialogbox as a modal.
 
 ## Notes
 
