@@ -1,0 +1,29 @@
+* {
+  box-sizing: content-box;
+}
+
+.full-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.895);
+  height: 100vh;
+}
+
+.bg-on {
+  background-color: white;
+}
+
+.box-light {
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-color: gray;
+  border-radius: 150px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.on {
+  background-color: yellow;
+  box-shadow: none;
+}
