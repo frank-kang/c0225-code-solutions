@@ -5,7 +5,6 @@ function typingTutor(): void {
   let $tagSpan = $tagSpans[currentIndex];
   $tagSpan.classList.add('active');
   document.addEventListener('keydown', (e: KeyboardEvent) => {
-    console.log('tagSpan:', $tagSpan);
     if ($tagSpan.textContent === e.key && currentIndex < $tagSpans.length) {
       $tagSpan.classList.add('green-font');
       if ($tagSpan.classList.contains('red-font')) {
