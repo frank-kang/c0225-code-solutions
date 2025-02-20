@@ -23,6 +23,12 @@ section {
   color: white;
   background-color: blue;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.custom-button:hover {
+  background-color: red;
+  transform: rotate(3deg);
 }
 
 .card-wrapper {
@@ -38,6 +44,11 @@ section {
   background-color: white;
   cursor: pointer;
   transform: scale(1);
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card > img {
