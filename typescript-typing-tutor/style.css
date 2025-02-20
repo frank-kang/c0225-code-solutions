@@ -20,7 +20,7 @@ h1 {
 }
 
 .active {
-  text-decoration: underline solid black;
+  text-decoration: underline solid;
 }
 
 .green-font {
