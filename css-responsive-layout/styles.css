@@ -40,9 +40,7 @@ body {
     &.col-lg-third {
       flex-basis: (calc(100% / 3));
     }
-  }
 
-  @media (width >= 768px) {
     &.col-lg-fourth {
       flex-basis: calc(100% / 4);
     }
