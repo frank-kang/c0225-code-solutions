@@ -5,8 +5,11 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - The `transition` property is shorthand for which four CSS properties?
+  transition property, transition-duration, transition-timing-function, transition-delay
 - What does the `transform` property do?
+  modify the visual appearance of the element
 - Give four examples of CSS transform functions.
+  rotate(), scale(), skew(), translate()
 
 ## Notes
 
