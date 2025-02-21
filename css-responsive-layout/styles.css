@@ -30,4 +30,21 @@ body {
   flex-basis: 100%;
 
   /* your code 👇 here */
+  @media (width >= 576px) {
+    &.col-sm-half {
+      flex-basis: 50%;
+    }
+  }
+
+  @media (width >= 768px) {
+    &.col-lg-third {
+      flex-basis: (calc(100% / 3));
+    }
+  }
+
+  @media (width >= 768px) {
+    &.col-lg-fourth {
+      flex-basis: calc(100% / 4);
+    }
+  }
 }
