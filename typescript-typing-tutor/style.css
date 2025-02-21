@@ -20,7 +20,7 @@ h1 {
 }
 
 .active {
-  text-decoration: underline solid;
+  border-bottom: solid 2px;
 }
 
 .green-font {
@@ -30,5 +30,5 @@ h1 {
 
 .red-font {
   color: red;
-  text-decoration: underline solid;
+  border-bottom: solid 2px;
 }
