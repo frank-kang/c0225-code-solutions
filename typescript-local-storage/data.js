@@ -6,7 +6,9 @@ function writeTodos() {
 }
 function readTodo() {
   const todos = localStorage.getItem('todos-storage');
-  if (!todos) throw new Error('todos does not exist');
-  const items = JSON.parse(todos);
-  return items;
+  if (todos) {
+    const items = JSON.parse(todos);
+    return items;
+  }
+  return [];
 }
