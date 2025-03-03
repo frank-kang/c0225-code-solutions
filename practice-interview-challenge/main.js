@@ -59,3 +59,5 @@ function getRangeReport(start, end) {
   data.total = total;
   return data;
 }
+const report = getRangeReport(1, 20);
+console.log(report);
