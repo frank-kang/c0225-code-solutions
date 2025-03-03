@@ -1,11 +1,13 @@
 'use strict';
 function getAverage(start, end) {
-  let average = 0;
+  let total = 0;
+  let iteration = 0;
   for (let i = start; i <= end; i++) {
-    average += i;
+    total += i;
+    iteration++;
   }
-  average = average / (end - start);
-  return parseInt(average.toFixed(1));
+  const average = total / iteration;
+  return average;
 }
 function getEvens(start, end) {
   const evens = [];
@@ -59,5 +61,5 @@ function getRangeReport(start, end) {
   data.total = total;
   return data;
 }
-const report = getRangeReport(1, 20);
+const report = getRangeReport(1, 10);
 console.log(report);

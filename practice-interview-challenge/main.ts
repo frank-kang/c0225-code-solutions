@@ -7,12 +7,14 @@ interface Data {
 }
 
 function getAverage(start: number, end: number): number {
-  let average = 0;
+  let total = 0;
+  let iteration = 0;
   for (let i = start; i <= end; i++) {
-    average += i;
+    total += i;
+    iteration++;
   }
-  average = average / (end - start);
-  return parseInt(average.toFixed(1));
+  const average = total / iteration;
+  return average;
 }
 
 function getEvens(start: number, end: number): number[] {
@@ -74,5 +76,5 @@ function getRangeReport(start: number, end: number): Data {
   return data;
 }
 
-const report = getRangeReport(1, 20);
+const report = getRangeReport(1, 10);
 console.log(report);
