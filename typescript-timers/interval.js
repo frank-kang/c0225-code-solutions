@@ -1,3 +1,4 @@
+'use strict';
 let count = 4;
 const intervalId = setInterval(() => {
   const $classH1 = document.querySelector('.countdown-display');
