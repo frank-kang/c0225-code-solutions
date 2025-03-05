@@ -1,0 +1,401 @@
+    1  git add css-fonts-and-colors
+    2  git commit -m 'completed quiz'
+    3  git push origin css-fonts-and-colors 
+    4  git switch main
+    5  git pull origin main
+    6  git pull origin main
+    7  git branch css-box-model
+    8  git switch css-box-model
+    9  git add css-box-model
+   10  git commit -m 'completed css box model'
+   11  git add css-box-model
+   12  git commit -a 'completed box model quiz'
+   13  git commit -m 'completed box model quiz'
+   14  git push origin css-box-model 
+   15  git switch main
+   16  git pull origin main
+   17  git branch css-pseudo-classes
+   18  git switch css-pseudo-classes
+   19  git add css-pseudo-classes
+   20  git add css-pseudo-classes
+   21  git commit -m 'completed psuedo classes assignment'
+   22  git push origin css-pseudo-classes 
+   23  git checkout main
+   24  git pull origin main
+   25  git branch css-brochure-form
+   26  git switch css-brochure-form
+   27  git add css-brochure-form
+   28  git commit -m 'completed brochure challenge'
+   29  git push origin css-brochure-form 
+   30  git switch main
+   31  git switch array-manipulation-2 
+   32  cd array-manipulation-2/src/
+   33  npx tsc --watch
+   34  cd ..
+   35  cd ..
+   36  git add array-manipulation-2
+   37  git commit -m 'completed array minipulation 2 challenge'
+   38  git push origin array-manipulation-2
+   39  git switch main
+   40  git pull origin main
+   41  git branch string-manipulation-2
+   42  git switch string-manipulation-2
+   43  git add string-manipulation-2
+   44  cd string-manipulation-2/
+   45  cd src
+   46  npx tsc --watch
+   47  cd ..
+   48  cd ..
+   49  git add string-manipulation-2
+   50  git commit -m 'starting to work on string minipulation'
+   51  git switch main
+   52  git switch css-brochure-form 
+   53  git switch main
+   54  git pull origin main
+   55  git pull origin main
+   56  git branch css-flexbox
+   57  git switch css-flexbox
+   58  git add css-flexbox
+   59  git commit -m 'completed flexbox assignment'
+   60  git push origin css-flexbox
+   61  git add css-flexbox
+   62  git commit -m 'updated as per suggestions'
+   63  git push origin css-flexbox 
+   64  git switch main
+   65  git pull origin main
+   66  git branch css-layout-classes
+   67  git switch css-layout-classes
+   68  git add css-layout-classes
+   69  git commit -m 'completed css-layout-classes'
+   70  git push origin css-layout-classes 
+   71  git add css-layout-classes
+   72  gi commit -m 'fixed image width'
+   73  git commit -m 'fixed image width'
+   74  git push origin css-layout-classes 
+   75  git switch main
+   76  git pull origin main
+   77  git branch css-positioning
+   78  git switch css-positioning
+   79  git add css-positioning
+   80  git commit -m 'completed almost all css position excercises'
+   81  git push origin css-positioning 
+   82  cd typescript-local-storage/
+   83  npx tsc --watch
+   84  cd ..
+   85  git add typescript-local-storage
+   86  git add typescript-local-storage
+   87  git commit -m 'ts-local-storage completed'
+   88  git push origin typescript-local-storage 
+   89  npx tsc --watch
+   90  npx tsc --watch
+   91  cd ..
+   92  git add typescript-local-storage
+   93  git commit -m 'fixed data.ts to account for empty task list'
+   94  git push origin typescript-local-storage 
+   95  cd ..
+   96  ls -ltr
+   97  git clone git@github.com:frank-kang/code-journal.git
+   98  cd code-journal/
+   99  npm install
+  100  npx tsc --watch
+  101  git all x
+  102  git add z
+  103  git add .
+  104  cd ..
+  105  git add code-journal
+  106  cd code-journal/
+  107  git all .
+  108  git add .
+  109  git commit -m 'completed up issue1.4'
+  110  git branch issue-1
+  111  git switch issue-1 
+  112  git add .
+  113  git commit -m 'finished upto issue1.4'
+  114  git push origin issue-1 
+  115  npx tsc --watch
+  116  git add .
+  117  git commit -m 'Added an 'input' event listener to the Photo URL'
+  118  git push origin issue-1 
+  119  npx tsc --watch
+  120  npx tsc --watch
+  121  git add .
+  122  git commit -m 'stores the form's input values in a new object.'
+  123  git commit -m "stores the form's input values in a new object."
+  124  git add .
+  125  git commit -m "stores the form's input values in a new object."
+  126  git add .
+  127  git commit -m "stores the form's input values in a new object."
+  128  git push origin issue-1 
+  129  npx tsc --watch
+  130  git add .
+  131  git commit -m 'adds the new object to the beginning of the data model's array of entries'
+  132  git commit -m "adds the new object to the beginning of the data model's array of entries"
+  133  git push origin issue-1
+  134  npx tsc --watch
+  135  git add .
+  136  git commit -m "Remove all CSS styling that had no affect or was otherwise unnecessary."
+  137  git push origin issue-1 
+  138  npx tsc --watch
+  139  git add .
+  140  git commiit -m "completed issue 1"
+  141  git commit -m "completed issue 1"
+  142  git push origin issue-1 
+  143  npx tsc --watch
+  144  git add .
+  145  git commit -m "made modifications as per suggestion"
+  146  git push origin issue-1 
+  147  npx tsc --watch
+  148  git add .
+  149  git commit -m "updated css and .ts files as per suggest from shawn"
+  150  git push origin issue-1 
+  151  npx tsc --watch
+  152  git add .
+  153  git commit -m 'fixed most issues'
+  154  git push origin issue-1 
+  155  git add .
+  156  git commit -m 'all suggested changes made'
+  157  git push origin issue-1 
+  158  git add .
+  159  git commit -m 'removed commented code'
+  160  git push origin issue-1 
+  161  git switch main
+  162  git pull origin main
+  163  git branch issue-2
+  164  git switch issue-2
+  165  git add .
+  166  git commit -m "Add an empty unordered list to the div[data-view="entries"] element in the HTML."
+  167  git push origin issue-2
+  168  npx tsc --watch
+  169  git add .
+  170  git commit -m 'Create a new function named viewSwap'
+  171  git commit -m 'Create a new function named viewSwap'
+  172  git commit -m 'Create a new function named viewSwap' --no-validation
+  173  git commit -m -n 'Create a new function named viewSwap' 
+  174  git add .
+  175  git commit -m -n 'Create a new function named viewSwap' 
+  176  git commit -m  'Create a new function named viewSwap' -n
+  177  git push origin issue-2
+  178  cd ..
+  179  git clone git@github.com:frank-kang/week-planner.git
+  180  ls
+  181  cd week-planner/
+  182  ls
+  183  npm install
+  184  git pull origin main
+  185  git add .
+  186  git commit -m 'added table and add new button'
+  187  git push origin main
+  188  git pull origin main
+  189  git pull origin main
+  190  git pull origin main --force
+  191  git fetch --all
+  192  git reset --hard origin/main
+  193  npx tsc --watch
+  194  git add .
+  195  git commit -m "working on modal form" -n
+  196  git push origin main
+  197  git add .
+  198  git commit -m 'Still working on modal forms'
+  199  git commit -m 'Still working on modal forms' -n
+  200  git push origin main
+  201  git pull origin main
+  202  npx -tsc --watch
+  203  npx tsc --watch
+  204  git add .
+  205  git commit -m 'working on redering entry' -n
+  206  git add .
+  207  git commit -m 'working on redering entry' -n
+  208  git add .
+  209  git commit -m 'working on issue 2'
+  210  git switch issue2
+  211  git switch issue-2
+  212  git branch
+  213  git list
+  214  git branch --list
+  215  cd ..
+  216  cd code-journal/
+  217  git add .
+  218  git commit -m 'working on issue 2'
+  219  git commit -m 'working on issue 2' -n
+  220  git push origin issue-2 
+  221  npx tsc --watch
+  222  git add .
+  223  git add .
+  224  git commit -m 'appended the DOM tree' -n
+  225  git push origin main
+  226  git add .
+  227  git commit -m 'added view swap'
+  228  git commit -m 'added view swap' -n
+  229  git push origin issue-2 
+  230  npx tsc --watch
+  231  git add .
+  232  git commit -m "added viewSwap"
+  233  git commit -m "added viewSwap" -n
+  234  git add .
+  235  git commit -m 'fixed html hopefully'
+  236  npx tsc --watch
+  237  git add .
+  238  git commit -m 'kind of fixed viewSwap...'
+  239  git push origin issue-2 
+  240  cd ..
+  241  ls
+  242  cd c0225-code-solutions/
+  243  git switch main
+  244  git pull origin maoin
+  245  git pull origin main
+  246  git branch practice-interview-challenge
+  247  git switch practice-interview-challenge
+  248  npx tsc --watch
+  249  cd practice-interview-challenge/
+  250  npx tsc --watch
+  251  git add .
+  252  git commit -m 'completed assignment'
+  253  git commit -m 'completed assignment' -n
+  254  git commit -m 'completed assignment' -n
+  255  git add .
+  256  git commit -m 'completed assignment' -n
+  257  cd ,,
+  258  cd ..
+  259  ls
+  260  cd practice-interview-challenge/
+  261  git add .
+  262  git commit -m 'completed assignment'
+  263  git push origin practice-interview-challenge 
+  264  npx tsc --watch
+  265  git add .
+  266  git commit -m 'updated ts'
+  267  git push origin practice-interview-challenge 
+  268  npx tsc --watch
+  269  git add .
+  270  git commit -m 'fixed getAverage function'
+  271  git push origin practice-interview-challenge 
+  272  git switch main
+  273  git pull origin main
+  274  cd ..
+  275  git pull orgin main
+  276  git pull origin main
+  277  git branch typescript-timers
+  278  git switch typescript-timers
+  279  cd typescript-timers/
+  280  git add .
+  281  git commit -m 'initial submit'
+  282  npx tsc --watch
+  283  git add .
+  284  git add .
+  285  git commit -m 'completed times exercise'
+  286  git push origin typescript-timers 
+  287  git add .
+  288  git commit -m 'saved the md file with the quiz questions'
+  289  git push origin typescript-timers 
+  290  git switch main
+  291  git pull origin main
+  292  cd ..
+  293  git pull origin main
+  294  git branch typescript-carousel
+  295  git switch typescript-carousel
+  296  npx tsc --watch
+  297  cd typescript-carousel/
+  298  npx tsc --watch
+  299  git add .
+  300  git commit -m 'need to complete logic for next and prev'
+  301  git switch main
+  302  git pull origin main
+  303  cd ..
+  304  git pull origin main
+  305  git branch typescript-destructuring
+  306  git switch typescript-destructuring
+  307  cd typescript-destructuring/
+  308  npx tsc --watch
+  309  git add .
+  310  git add .
+  311  git commit -m 'completed destructuring exercise'
+  312  git push origin typescript-destructuring 
+  313  git switch main
+  314  git pull origin main
+  315  cd ..
+  316  git pull origin main
+  317  git branch typescript-operators
+  318  git switch typescript-operators
+  319  cd typescript-operators
+  320  npx tsc --watch
+  321  git add .
+  322  git add .
+  323  git commit -m 'completed ts-operators'
+  324  git push origin typescript-operators
+  325  git switch main
+  326  git pull origin main
+  327  cd ..
+  328  git pull origin main
+  329  git pull origin main
+  330  git branch array-methods
+  331  git switch array-methods
+  332  cd array-methods/
+  333  npx tsc --watch
+  334  git add .
+  335  git commit -m  'finished to find'
+  336  git commit -m  'finished to find' -n
+  337  cd ..
+  338  cd array-methods/
+  339  git commit -m  'finished to find' -n
+  340  npx tsc --watch
+  341  git add .
+  342  git commit -m 'completed array-methods'
+  343  git push origin array-methods 
+  344  git add .
+  345  git add .
+  346  git commit -m 'updated quiz questions'
+  347  git push origin array-methods 
+  348  cd ..
+  349  git switch main
+  350  git pull origin main
+  351  git branch command-line-basics
+  352  git switch command-line-basics
+  353  cd command-line-basics/
+  354  man man
+  355  man cat
+  356  cat laziness.txt 
+  357  cat impatience.txt 
+  358  cat hubris.txt 
+  359  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  360  man ls
+  361  ls -af lfz-staff/
+  362  ls -af lfz-staff > lfz-staff/contents.txt
+  363  cat lfz-staff/contents.txt 
+  364  man pwd
+  365  pwd
+  366  pwd > i-was-hear.txt
+  367  ls -lrt
+  368  cat i-was-hear.txt 
+  369  man echo
+  370  echo 'Hello, World!'
+  371  ech 'Hello, World!' > hello.txt
+  372  echo 'Hello, World!' > hello.txt
+  373  cat hello.txt 
+  374  man touch
+  375  touch tag-youre-it.txt
+  376  touch snoot/boop.txt
+  377  ls -la snoot/
+  378  man mkdir
+  379  mkdir parent
+  380  ls -lrt
+  381  mkdir parent/child/grandchild
+  382  mkdir -p parent/child/grandchild
+  383  touch parent/child/grandchild/.gitkeep
+  384  ls -a parent/child/grandchild/
+  385  man mv
+  386  mv pokiemans pokemon
+  387  ls -lrt
+  388  man rm
+  389  rm lol.txt 
+  390  ls -lrt
+  391  rm -r kill-me/
+  392  ls -lrt
+  393  man cp
+  394  man cp
+  395  cp and-then.txt no-and-then.txt
+  396  ls -lrt
+  397  cat and-then.txt 
+  398  cat no-and-then.txt 
+  399  man history
+  400  history
+  401  history > command-history.txt
