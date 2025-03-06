@@ -15,7 +15,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What three things are on the start-line of an HTTP **response** message?
   the HTTP protocol version, the status code, and a textual reason phrase
 - What are HTTP headers?
-  Metadata
+  Metadata in key value pair that provide additional information.
 - Where would you go if you wanted to learn more about a specific HTTP Header?
   MDN
 - Is a body required for a valid HTTP request or response message?
