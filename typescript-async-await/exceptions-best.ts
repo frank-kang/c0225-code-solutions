@@ -14,7 +14,7 @@ async function throwOnce(): Promise<void> {
 async function throwSeveral(): Promise<void> {
   const msg = await read('foo1', true);
   console.log(elapsed(), 'throwSeveral1:', msg);
-  const msg2 = await read('foo2', true);
+  const msg2 = await read('foo2', false);
   console.log(elapsed(), 'throwSeveral2:', msg2);
   const msg3 = await read('foo3', false);
   console.log(elapsed(), 'throwSeveral3:', msg3);
@@ -29,7 +29,9 @@ async function throwChained(): Promise<void> {
   console.log(elapsed(), 'throwChained3:', msg3);
 }
 try {
-  throwOnce()
-    .then(() => throwSeveral())
-    .then(() => throwChained());
-} catch {}
+  await throwOnce();
+  await throwSeveral();
+  await throwChained();
+} catch (error) {
+  console.log(elapsed(), 'There was an error:', error);
+}
