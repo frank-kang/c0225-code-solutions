@@ -5,9 +5,9 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is JSX?
-  javascript extension that allows developers to write code for dynamic DOM create what looks like html.
+  javascript with xml.
 - How does React use JSX to render components?
-  functions in react return jsx markup. react then converts the jsx into html and pushed it into the DOM.
+  converts the jsx into html and push it into the DOM.
 
 ## Notes
 
