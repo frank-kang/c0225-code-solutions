@@ -21,14 +21,10 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Total button Clicks {count}
         </button>
-        <p>
-          javascript extension that allows developers to write code for dynamic
-          DOM create what looks like html.
-        </p>
+        <p>Javascript with xml.</p>
       </div>
       <p className="read-the-docs">
-        functions in react return jsx markup. react then converts the jsx into
-        html and pushed it into the DOM.
+        Converts the jsx into html and push it into the DOM.
       </p>
     </>
   );
