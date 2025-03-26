@@ -1,0 +1,28 @@
+#button {
+  border: none;
+  font-size: 1em;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.light-purple {
+  background-color: rgb(235, 145, 235);
+}
+
+.pink {
+  background-color: pink;
+}
+
+.light-brown {
+  background-color: rgb(147, 40, 40);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
