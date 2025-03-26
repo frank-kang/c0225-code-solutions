@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 type Props = {
-  text: string[];
+  texts: string[];
 };
 
-export function Description({ text }: Props) {
+export function Description({ texts }: Props) {
   const [index, setIndex] = useState(0);
   function handleClick() {
     setIndex(index + 1);
   }
-  return <p onClick={handleClick}>{text[index]}</p>;
+  return <p onClick={handleClick}>{texts[index]}</p>;
 }

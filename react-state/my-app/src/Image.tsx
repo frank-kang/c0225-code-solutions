@@ -2,9 +2,9 @@ import './Image.css';
 import { useState } from 'react';
 
 type Props = {
-  src: string[];
+  srcs: string[];
 };
-export function Image({ src }: Props) {
+export function Image({ srcs }: Props) {
   const [index, setIndex] = useState(0);
   function handleClick() {
     setIndex(index + 1);
@@ -15,7 +15,7 @@ export function Image({ src }: Props) {
         <img
           className="image-fill"
           onClick={handleClick}
-          src={src[index]}
+          src={srcs[index]}
           alt="space-image"
         />
       </div>

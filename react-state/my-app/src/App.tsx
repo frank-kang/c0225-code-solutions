@@ -32,9 +32,9 @@ export default function App() {
   return (
     <>
       <Header text="React Image Bank" />
-      <Image src={srcs} />
-      <Caption caption={captions} />
-      <Description text={descriptions} />
+      <Image srcs={srcs} />
+      <Caption captions={captions} />
+      <Description texts={descriptions} />
       <Button label="Click for Next Image" />
     </>
   );
