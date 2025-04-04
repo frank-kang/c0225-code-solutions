@@ -9,16 +9,17 @@ Answer the following questions in the provided markdown file before turning in t
 - What NPM package can be used to make navigating a React app behave as users expect?
   React Router
 - Which React Router component(s) can be used to set up your app's navigation?
-
+  Browser router, Routes, Route, Link, Navigate
 - How does React Router match the browser URL to one of your app's React components?
-
+  Using routes.
 - What is the purpose of React Router's `Outlet` component?
-
+  Place holder for the child components to be rendered.
 - What React component is used to statically navigate to another page? What HTML element does it render to?
-
+  Link. Renders as an anchor.
 - What React Router hook is used to access route path dynamic segments (those that start with `:` in the `path`)?
-
+  useParams()
 - What React Router hook is used to navigate programmatically?
+  useNavigate()
 
 ## Notes
 
