@@ -13,7 +13,7 @@ export function RegistrationFormControlled() {
     <>
       <h2>Controlled Form</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="">
+        <label>
           Username:{' '}
           <input
             type="text"
@@ -21,7 +21,7 @@ export function RegistrationFormControlled() {
             onChange={(e) => setUsername(e.target.value)}
           />
         </label>
-        <label htmlFor="">
+        <label>
           Password:{' '}
           <input
             type="password"
@@ -29,7 +29,7 @@ export function RegistrationFormControlled() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <label htmlFor="">
+        <label>
           <button>Submit</button>
         </label>
       </form>

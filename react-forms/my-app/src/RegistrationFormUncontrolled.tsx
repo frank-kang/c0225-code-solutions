@@ -16,11 +16,11 @@ export function RegistrationFormUncontrolled() {
           User Name:{' '}
           <input type="text" name="username" placeholder="username" />
         </label>
-        <label htmlFor="">
+        <label>
           Password:{' '}
           <input type="password" name="password" placeholder="password" />
         </label>
-        <label htmlFor="">
+        <label>
           <button>Submit</button>
         </label>
       </form>
