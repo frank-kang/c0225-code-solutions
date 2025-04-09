@@ -5,12 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is a database schema?
-
+  Collection of tables.
 - What is a table?
-
+  list of rows having the same attributes.
 - What is a row?
-
+  A record.
 - What is an attribute and what other names are used to describe them?
+  Columns.
 
 ## Notes
 
