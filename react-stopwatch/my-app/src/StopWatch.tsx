@@ -2,21 +2,40 @@ import { useState } from 'react';
 import { FaPlay, FaPause } from 'react-icons/fa';
 
 export function StopWatch() {
-  const [seconds, setSeconds] = useState();
-  const [elapsedSeconds, setElapsedSeonds] = useState(0);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [intervalId, setIntervalId] = useState<NodeJS.Timeout>();
 
   function handlePlay() {
-    setInterval();
+    const intervalId = setInterval(() => {
+      setElapsedSeconds((prev: number) => prev + 1);
+    }, 1000);
+    setIntervalId(intervalId);
+  }
+
+  const isPlaying = intervalId;
+
+  function handlePause() {
+    clearInterval(intervalId);
+    setIntervalId(undefined);
+  }
+
+  function handleReset() {
+    if (!intervalId) {
+      setElapsedSeconds(0);
+    }
   }
 
   return (
     <div className="stop-watch">
-      <div className="watch-face">
-        <span className="counter">{seconds}</span>
+      <div className="watch-face" onClick={handleReset}>
+        <span className="counter">{elapsedSeconds}</span>
       </div>
       <div>
-        <FaPause onClick={handlePlay} size="2rem" />
-        <FaPlay size={'2rem'} />
+        {isPlaying ? (
+          <FaPause onClick={handlePause} size="2rem" />
+        ) : (
+          <FaPlay onClick={handlePlay} size={'2rem'} />
+        )}
       </div>
     </div>
   );
