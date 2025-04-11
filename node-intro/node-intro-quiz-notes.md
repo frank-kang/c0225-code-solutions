@@ -5,12 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What are the 3 components of a fullstack Web architecture?
-
+  Front end, backend, database.
 - What is Node.js and why is it useful?
-
+  Allows javascript to run on server. You can run a webserver with node.
 - What are environment variables and how do you access them in Node.js?
-
+  variables with enviroment specific settings.
 - What is a REPL?
+  command line way of running bits of javascript code.
 
 ## Notes
 
