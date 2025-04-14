@@ -20,6 +20,6 @@ app.get('/notes', (req, res) => {
 });
 
 app.post('/notes/:noteId', (req, res) => {
-  const noteId = req.params;
+  const { noteId } = req.params;
   res.send(`NoteId: ${noteId}`);
 });
